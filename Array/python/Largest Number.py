@@ -1,15 +1,15 @@
 def cmp():
-    class K():
-        def __init__(A, value_of_a): # A is self here
-            A.val = value_of_a
+    class compare_():
+        def __init__(A, A_val): # A is self here
+            A.val = A_val
         
-        def __lt__(A, B):
-            a = str(A.val)
-            b = str(B.val)
-            if a+b > b+a: 
+        def __lt__(A, B): #less than function
+            str1 = str(A.val)
+            str2 = str(B.val)
+            if str1+str2> str2+str1: 
                 return True
             return False
-    return K
+    return compare_
 class Solution:
     # @param A : tuple of integers
     # @return a strings
