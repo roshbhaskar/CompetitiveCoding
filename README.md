@@ -4,9 +4,7 @@
 - LeetCode
 - HackerRank
 
-(I have hard time sticking to one platfrom sorry)
-<br>
 
-Find solutions in both `python3` and `c++ ` <br>
+Solutions can be found in either `python3` or `c++ ` <br>
 The questions are provided along with the solutions. <br>
 
