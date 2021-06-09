@@ -27,7 +27,7 @@ def permutations(s,b):
     
     result = []
     while(length<len(s)-len(b)):
-        value_s=0
+        
         if(check(s[length:length+len(b)],b)):
         
             result.append(length)
