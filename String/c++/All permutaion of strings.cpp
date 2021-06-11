@@ -8,7 +8,7 @@ A permutation, also called an “arrangement number” or “order,”
 #include <bits/stdc++.h>
 using namespace std;
 
-void permutation(string arr, int left, int right)
+void permutation(string a, int left, int right)
 {
     // Same algo for strings and array permutations
     if (left == right)
