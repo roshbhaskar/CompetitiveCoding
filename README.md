@@ -5,6 +5,6 @@
 - HackerRank
 
 
-Solutions can be found in either `python3` or `c++ ` <br>
+Solutions coded in `python3` <br>
 The questions are provided along with the solutions. <br>
 
