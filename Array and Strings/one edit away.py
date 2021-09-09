@@ -6,7 +6,7 @@ pales, pale -> true
 pale, bale -> true 
 pale, bae -> false
 
-TC : O(max(m,n))
+TC : O(min(m,n))
 '''
 
 def oneAway(string1,string2):
