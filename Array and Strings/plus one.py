@@ -15,17 +15,17 @@ class Solution:
         while(i>0):
             j=i-1
             x = digits[j] + carry
-            print('x',x)
-            print('digit',digits[j])
+            # print('x',x)
+            # print('digit',digits[j])
             if(x<10):
                 digits[j]=x
                 return digits
             else:
                 digits[j]=x%10
                 carry = x//10
-                print('digit',digits[j])
+                # print('digit',digits[j])
             i-=1    
-            
+
         if(carry):
             digits = [carry] + digits
         return digits
