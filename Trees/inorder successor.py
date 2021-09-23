@@ -5,8 +5,8 @@ TC : O(logN)
 '''
 
 def inorderSuccessor(root,node):
-    if(root.left):
-        return checkRight(root.left)
+    if(root.right):
+        return checkRight(root.right)
     
     succ= None
     while(root!=None):
@@ -21,7 +21,7 @@ def inorderSuccessor(root,node):
     return succ
 
 def checkRight(root):
-    while(root.left!=None):
-        root=root.left
+    while(root.right!=None):
+        root=root.right
     return root
     
